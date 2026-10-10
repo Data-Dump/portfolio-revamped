@@ -1,0 +1,11 @@
+{
+  "redirects": [
+    { "source": "/main", "destination": "/", "permanent": true },
+    { "source": "/photography", "destination": "/", "permanent": true },
+    { "source": "/photography/(.*)", "destination": "/", "permanent": true }
+  ],
+  "rewrites": [
+    { "source": "/private/(.*)", "destination": "/403.html" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
