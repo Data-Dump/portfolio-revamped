@@ -54,7 +54,7 @@ export const verticalVideos = [
   },
   {
     id:          'v5',
-    title:       'AreyPuneet — Exam Mindset',
+    title:       'AreyPuneet — PMFME Scheme',
     client:      'AreyPuneet',
     category:    'Creator',
     orientation: 'vertical',
