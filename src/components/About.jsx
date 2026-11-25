@@ -58,6 +58,8 @@ function Counter({ target, suffix = '', label }) {
 
 /* Skills list */
 const SKILLS = [
+  'Cinematography',
+  'Camera & Lighting',
   'Video Editing',
   'Motion Graphics',
   'Colour Grading',
@@ -158,13 +160,30 @@ export default function About() {
             lineHeight:    0.95,
             letterSpacing: '0.01em',
             textTransform: 'uppercase',
-            marginBottom:  '1.5rem',
+            marginBottom:  '0.75rem',
           }}>
             Kaushal{' '}
             <em style={{ fontFamily: 'var(--font-serif)', fontStyle: 'italic', color: 'var(--color-red-dusty)', fontWeight: 400 }}>
               Malvi
             </em>
           </h2>
+
+          {/* Prominent Role Tag */}
+          <p style={{
+            fontFamily:    'var(--font-sans)',
+            fontSize:      '0.8rem',
+            fontWeight:    600,
+            letterSpacing: '0.18em',
+            textTransform: 'uppercase',
+            color:         'var(--color-red)',
+            marginBottom:  '1.5rem',
+            display:       'flex',
+            alignItems:    'center',
+            gap:           '0.6rem',
+          }}>
+            <span style={{ display: 'inline-block', width: 7, height: 7, borderRadius: '50%', background: 'var(--color-red)' }} />
+            Cinematographer & Video Editor
+          </p>
 
           {/* Bio */}
           <p style={{
@@ -175,10 +194,10 @@ export default function About() {
             marginBottom:'1.5rem',
             maxWidth:   480,
           }}>
-            I craft stories through motion — from raw footage to finished
-            films that leave an impression. Specialising in cinematic
-            reels, event coverage, and creator content, I bring a sharp
-            eye for rhythm, pacing, and visual language to every project.
+            I am a cinematographer and video editor crafting stories through light,
+            composition, and motion — from behind the lens to the final cut.
+            Specialising in cinematic visuals, narrative pacing, and event films,
+            I bring a sharp eye for rhythm, atmosphere, and visual language to every frame.
           </p>
 
           {/* Skills */}

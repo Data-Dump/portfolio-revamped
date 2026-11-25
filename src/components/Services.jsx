@@ -10,6 +10,12 @@ import { gsap } from '../utils/gsap.js'
 
 const SERVICES = [
   {
+    id:    'cinematography',
+    icon:  '🎬',
+    title: 'Cinematography',
+    desc:  'Visual storytelling behind the lens — intentional lighting, dynamic camera movements, and deliberate framing that evoke emotion.',
+  },
+  {
     id:    'editing',
     icon:  '✂',
     title: 'Video Editing',
@@ -38,12 +44,6 @@ const SERVICES = [
     icon:  '🎵',
     title: 'Sound Design',
     desc:  'Music selection, SFX layering, and audio balancing that make the visuals feel complete and immersive.',
-  },
-  {
-    id:    'event',
-    icon:  '🎥',
-    title: 'Event Filmmaking',
-    desc:  'Capturing the energy and emotion of live events — from college fests to brand activations.',
   },
 ]
 

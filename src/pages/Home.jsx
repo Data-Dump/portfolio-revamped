@@ -24,7 +24,7 @@ export default function Home() {
   
   /* Make sure the page has a proper title and resets any error-page state */
   useEffect(() => {
-    document.title = 'Kaushal Malvi — Video Editor & Motion Designer'
+    document.title = 'Kaushal Malvi — Cinematographer & Video Editor'
   }, [])
 
   return (
@@ -41,7 +41,7 @@ export default function Home() {
       <DividerCard
         id="work"
         topLeft="Portfolio 2026"
-        topRight="Short-form Content"
+        topRight="Cinematography & Edits"
         line1="Recent"
         line2="Work"
       />

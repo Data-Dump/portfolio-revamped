@@ -217,7 +217,7 @@ export default function Contact() {
           color:         'rgba(255,255,255,0.25)',
         }}>
           <span style={{ color: 'var(--color-red)', fontWeight: 700 }}>//</span>
-          {' '}© 2026 Kaushal Malvi — Video Editor & Motion Designer
+          {' '}© 2026 Kaushal Malvi — Cinematographer & Video Editor
         </p>
       </footer>
     </section>

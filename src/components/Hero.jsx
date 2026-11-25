@@ -21,7 +21,7 @@ function CornerLabels() {
       className="absolute top-6 left-0 right-0 flex justify-between px-6 md:px-10 z-20"
       id="hero-corner-labels"
     >
-      <span className="corner-label">Video Editor</span>
+      <span className="corner-label">Cinematographer</span>
       <span className="corner-label">Portfolio</span>
     </div>
   )
@@ -224,7 +224,7 @@ export default function Hero({ ready }) {
           ref={labelsRef}
           className="absolute top-6 left-0 right-0 flex justify-between px-6 md:px-10 z-20"
         >
-          <span className="corner-label">Video Editor</span>
+          <span className="corner-label">Cinematographer</span>
           <span className="corner-label">Portfolio</span>
         </div>
 
@@ -267,7 +267,7 @@ export default function Hero({ ready }) {
           />
         </div>
 
-        {/* ── Tagline: // VIDEO EDITOR / MOTION DESIGNER ── */}
+        {/* ── Tagline: // CINEMATOGRAPHER / VIDEO EDITOR / MOTION DESIGNER ── */}
         <div
           ref={taglineRef}
           className="absolute bottom-10 left-6 md:left-10 z-40 flex items-start gap-3"
@@ -293,10 +293,11 @@ export default function Hero({ ready }) {
               fontSize: 'clamp(0.75rem, 1.6vw, 1.05rem)',
               letterSpacing: '0.12em',
               textTransform: 'uppercase',
-              color: '#444',
-              lineHeight: 1.4,
+              color: '#555',
+              lineHeight: 1.45,
             }}
           >
+            <div style={{ color: '#0A0A0A', fontWeight: 700 }}>Cinematographer</div>
             <div>Video Editor</div>
             <div>Motion Designer</div>
           </div>
